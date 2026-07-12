@@ -4,19 +4,51 @@
 	<meta charset="UTF-8">
 	<title>Photo Gallery</title>
 	<link rel="stylesheet" href="css/gallery.css">
-	<script src = "js/gallery.js"></script>
+	<script src="js/gallery.js"></script>
 </head>
-<body>
-	
-	<div id = "image">
+<body onload="addTabIndex()">
+
+	<h1>My Interactive Photo Gallery</h1>
+
+	<div id="image">
 		Hover over an image below to display here.
 	</div>
-	
-	<img class = "preview" alt = "Styling with a Bandana" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
-	
-	<img class = "preview" alt = "With My Boy" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG" onmouseover = "upDate(this)" onmouseout = "unDo()">
-	
-	<img class = "preview" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" alt = "Young Puppy" onmouseover = "upDate(this)" onmouseout = "unDo()">
+
+	<img class="preview"
+		alt="THAY: mô tả ảnh 1 - ví dụ: Hoàng hôn tại Vũng Tàu"
+		src="THAY: đường dẫn/link ảnh 1"
+		onmouseover="upDate(this)" onmouseout="unDo()"
+		onfocus="upDate(this)" onblur="unDo()">
+
+	<img class="preview"
+		alt="THAY: mô tả ảnh 2"
+		src="THAY: đường dẫn/link ảnh 2"
+		onmouseover="upDate(this)" onmouseout="unDo()"
+		onfocus="upDate(this)" onblur="unDo()">
+
+	<img class="preview"
+		alt="THAY: mô tả ảnh 3"
+		src="THAY: đường dẫn/link ảnh 3"
+		onmouseover="upDate(this)" onmouseout="unDo()"
+		onfocus="upDate(this)" onblur="unDo()">
+
+	<img class="preview"
+		alt="THAY: mô tả ảnh 4"
+		src="THAY: đường dẫn/link ảnh 4"
+		onmouseover="upDate(this)" onmouseout="unDo()"
+		onfocus="upDate(this)" onblur="unDo()">
+
+	<img class="preview"
+		alt="THAY: mô tả ảnh 5"
+		src="THAY: đường dẫn/link ảnh 5"
+		onmouseover="upDate(this)" onmouseout="unDo()"
+		onfocus="upDate(this)" onblur="unDo()">
+
+	<img class="preview"
+		alt="THAY: mô tả ảnh 6"
+		src="THAY: đường dẫn/link ảnh 6"
+		onmouseover="upDate(this)" onmouseout="unDo()"
+		onfocus="upDate(this)" onblur="unDo()">
 
 </body>
 </html>
